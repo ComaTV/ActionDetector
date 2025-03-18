@@ -1,0 +1,51 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"ComaTV"
+		]
+	},
+	"header": {
+		"name": "ActionDetector",
+		"description": "A system that helps developers of Minecraft Bedrock commands not touch the code to obtain this data. Made by ComaTV.",
+		"min_engine_version": [
+			1,
+			21,
+			62
+		],
+		"uuid": "edbf8c66-b102-4a5f-a1f6-c1ba765d2271",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "b00458a8-d84f-4aa8-805a-8ea795731de9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "665102ac-50a1-4c64-b9ff-c6ec40c6ba76",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.17.0"
+		}
+	]
+}
