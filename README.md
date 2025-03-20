@@ -14,4 +14,7 @@ When a player performs an action, add a tag to it just like:
 + blockInteractFurnace
 + blockInteractChest
 
-+ Data in scoreboard about health and viewDir
+Data in scoreboard about:
+
++ health [0-20]
++ scoreDir [1-8]
