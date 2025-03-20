@@ -9,10 +9,10 @@ When a player performs an action, add a tag to it just like:
 + sleeping
 + shift
 + attack
-+ use
-+ blockInteractCraftingTable
-+ blockInteractFurnace
-+ blockInteractChest
++ use [right click with item]
++ blockInteractCraftingTable [interact with crafting table]
++ blockInteractFurnace [interact with furnace]
++ blockInteractChest [interact with chest]
 
 Data in scoreboard about:
 
